@@ -231,12 +231,6 @@
                             <constraint firstItem="Y5q-Bo-7NM" firstAttribute="trailing" secondItem="VhQ-Vg-Kas" secondAttribute="trailing" constant="20" id="r8L-g0-8KI"/>
                             <constraint firstItem="Y5q-Bo-7NM" firstAttribute="trailing" secondItem="z8Q-TI-8jy" secondAttribute="trailing" constant="20" id="zXG-8u-RJu"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="pbR-6w-azk"/>
-                                <exclude reference="VhQ-Vg-Kas"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Vopros Nº" id="9fi-Wm-uRA">
                         <barButtonItem key="rightBarButtonItem" title="3 =&gt;" id="XWc-BF-Il7">
