@@ -15,16 +15,16 @@ struct Question {
 extension Question {
     static func getQuestion() -> [Question] {
         return [
-            Question(text: "Kakuyu pishshu vi predprinimayete",
+            Question(text: "Kakuyu pishshu vi predprinimayete?",
                      type: .single,
                      answers: [
-                        Answer(text: "Steyk", type: .dog),
-                        Answer(text: "Riba", type: .cat),
-                        Answer(text: "Morkov", type: .rabbit),
-                        Answer(text: "Kukuruza", type: .turtle)
+                        Answer(text: "Стейк", type: .dog),
+                        Answer(text: "Рыба", type: .cat),
+                        Answer(text: "Морковь", type: .rabbit),
+                        Answer(text: "Кукуруза", type: .turtle)
                      ]
             ),
-            Question(text: "Chto vam nravitsya bolshe",
+            Question(text: "Chto vam nravitsya bolshe?",
                      type: .multiple,
                      answers: [
                         Answer(text: "Plavat", type: .dog),
@@ -33,7 +33,7 @@ extension Question {
                         Answer(text: "yest", type: .turtle)
                      ]
             ),
-            Question(text: "Lyubite vi poyezdke na mawine",
+            Question(text: "Lyubite vi poyezdke na mawine?",
                      type: .ranged,
                      answers: [
                         Answer(text: "Nanaviju", type: .dog),
